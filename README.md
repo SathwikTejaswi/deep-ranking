@@ -20,7 +20,7 @@ Query Image :
 
 Results :
 
-![im2](https://github.com/SathwikTejaswi/Deep-Image-Ranking/blob/master/sample_outputs/example1/resultl.JPEG)
+![im2](https://github.com/SathwikTejaswi/Deep-Image-Ranking/blob/master/sample_outputs/example1/result1.JPEG)
 ![im2](https://github.com/SathwikTejaswi/Deep-Image-Ranking/blob/master/sample_outputs/example1/result2.JPEG)
 ![im2](https://github.com/SathwikTejaswi/Deep-Image-Ranking/blob/master/sample_outputs/example1/result3.JPEG)
 ![im2](https://github.com/SathwikTejaswi/Deep-Image-Ranking/blob/master/sample_outputs/example1/result4.JPEG)
