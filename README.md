@@ -6,9 +6,13 @@ This repository is a simpler implementation of the paper. The differences is tha
 
 ### Specifics :
 Network Used : Resnet 50
+
 Dataset Used for training the network : tiny-image-net (http://cs231n.stanford.edu/tiny-imagenet-200.zip)
+
 Trained on : K20 nvdia
+
 Epochs : 11
+
 Total training time : 20 Hours
 
 ### Sample output
