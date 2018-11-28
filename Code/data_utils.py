@@ -13,7 +13,7 @@ def pil_loader(path):
         return img.convert('RGB')
 
 class Tiny(Dataset):
-    """Face Landmarks dataset."""
+    """ Custom dataset with triplet sampling, for the tiny image net dataset"""
 
     def __init__(self, root_dir='tiny-imagenet-200', transform=None, loader = pil_loader):
         """
@@ -81,4 +81,4 @@ class Tiny(Dataset):
                 temp = self.transform(temp)
             images.append(temp)
 
-        return (images[0],images[1],images[2]),2,3
+        return (images[0],images[1],images[2]),None,None
