@@ -92,7 +92,12 @@ model  = models.resnet50(pretrained=True)
 num_features = model.fc.in_features
 model.fc = nn.Linear(num_features,2000)
 model = model.to(device)
-model.load_state_dict(torch.load('modelresnewnew3.ckpt'))
+model_path = None # if you have pretrained weights, update the model path
+
+try :
+    model.load_state_dict(torch.load(model_path))
+except :
+    pass
 def forward(x):
     x = x.type('torch.FloatTensor').to(device)
     return(model(x))
